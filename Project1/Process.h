@@ -10,13 +10,14 @@
  *
  * Created on February 10, 2018, 11:48 PM
  */
+
+#ifndef PROCESS_H
+#define PROCESS_H
+
 #include <cstdlib>
 #include <string>
 
 using namespace std;
-
-#ifndef PROCESS_H
-#define PROCESS_H
 
 class Process{
 public:

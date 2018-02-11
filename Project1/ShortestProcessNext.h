@@ -14,6 +14,16 @@
 #ifndef SHORTESTPROCESSNEXT_H
 #define SHORTESTPROCESSNEXT_H
 
+#include <queue>
+#include "Process.h"
+
+class ShortestProcessNext{
+public:
+    ShortestProcessNext();
+    void RunNextProcess();
+private:
+    std::priority_queue<Process> processes;
+};
 
 
 #endif /* SHORTESTPROCESSNEXT_H */

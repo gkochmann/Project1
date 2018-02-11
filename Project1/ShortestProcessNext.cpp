@@ -4,3 +4,11 @@
  * and open the template in the editor.
  */
 #include "ShortestProcessNext.h"
+
+ShortestProcessNext::ShortestProcessNext(){
+    
+}
+
+void ShortestProcessNext::RunNextProcess(){
+    ShortestProcessNext::processes.pop(); //Pops the 
+}
